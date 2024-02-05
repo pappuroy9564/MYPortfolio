@@ -1,0 +1,58 @@
+/*! THEMES */
+
+:root {
+  --heading-color: #ffd400;
+  --heading-font-color: #ffffff;
+  --black-color: #000000;
+  --text-para-color: #dcdcdc;
+  --main-color: #222a35;
+  --main-child-color: #171e28;
+  --Grey-Color: rgb(136, 136, 136);
+}
+
+/*! FONT-SIZE */
+
+:root {
+  /* H1 */
+  --HEADING-1: 4.375vw;
+  --H1--lINE-HEIGHT: 85px;
+  --H1--WEIGHT: bold;
+  /* h2 */
+  --HEADING-2: 2.625vw;
+  --H2--lINE-HEIGHT: 56px;
+  --H2--WEIGHT: bold;
+  /* h3 */
+  --HEADING-3: 2.25vw;
+  --H3--lINE-HEIGHT: 46px;
+  --H3--WEIGHT: bold;
+  /* Font-Text */
+  --LEAD-TEXT-PT: 1.3vw;
+  --PT-LINE-HEIGHT: 32px;
+  --PT-WEIGHT: Bold;
+  /* Font-Text */
+  --LEAD-TEXT-DM: 1.3vw;
+  --DM-LINE-HEIGHT: 36px;
+  --Regular: Regular;
+  /* BODY_TEXT_1 */
+  --B1: 1.125vw;
+  --B1-Line-Height: 28px;
+  /* BODY_TEXT_2 */
+  --B2: 1.125vw;
+  --B2-Line-Height: 26px;
+  /* BODY_TEXT_2 */
+  --B3: 0.875vw;
+  --B3-Line-Height: 22px;
+  /* Button-Text */
+  --BUTTON-TEXT: 1.1vw;
+  --BUTTON-LiNE-HEIGHT: 1.5vw;
+  --BUTTON-LiNE-WEIGHT: bold;
+}
+/* ========= Unselectable ====== */
+.unselectable{
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #cc0000;
+}

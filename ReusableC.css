@@ -1,0 +1,61 @@
+/*========== Reusable Code ========== */
+h2 {
+        font-size: 3vw;
+      }
+      p {
+        font-size: 1.2vw;
+        color: rgb(227, 227, 227);
+      }
+      
+      .center {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+      /*! m-btn */
+      .m-btn {
+        border: 0.1vw solid #ffd400;
+        height: 3.438vw;
+        width: 12.5vw;
+        background: transparent;
+        color: var(--heading-color);
+        font-size: var(--BUTTON-TEXT);
+        font-weight: var(--BUTTON-LiNE-WEIGHT);
+        line-height: var(--BUTTON-LiNE-HEIGHT);
+        border-radius: 0.4vw;
+        cursor: pointer;
+        transition: all linear 0.3s;
+      }
+      .m-btn:hover {
+        background-color: #ffd401;
+      }
+      .m-btn:active {
+        background-color: #fee565;
+      }
+      
+      .m-btn i {
+        padding-right: 0.5vw;
+      }
+      
+      .m-btn:hover {
+        color: var(--black-color);
+      }
+      
+         /*! h-btn */
+      .h-btn {
+        height: 3.5vw;
+      width: 8vw;
+        border-radius: 0.5vw;
+        border: none;
+        font-weight: var(--BUTTON-LiNE-WEIGHT);
+        line-height: var(--BUTTON-LiNE-HEIGHT);
+        background-color: var(--heading-color);
+        cursor: pointer;
+      }
+      .h-btn:hover {
+        background-color: #ffd401;
+      }
+      .h-btn:active {
+        background-color: #fee565;
+      }
